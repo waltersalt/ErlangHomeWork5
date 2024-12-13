@@ -1,0 +1,15 @@
+{application, erlangHomeWork5, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {erlangHomeWork5_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        eunit
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
